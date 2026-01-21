@@ -1,0 +1,107 @@
+
+SET DE EXERCIȚII – PROMPTING AVANSAT PENTRU FITNESS (15 exerciții)
+================================================================
+
+INSTRUCȚIUNI OBLIGATORII (pentru TOATE exercițiile):
+Fiecare prompt scris de student TREBUIE să conțină explicit:
+1. INSTRUCȚIUNI clare și specifice pentru model
+2. CONTEXT (rolul modelului, situația utilizatorului, constrângeri)
+3. FORMAT DE IEȘIRE clar (structură, bullet points, pași etc.)
+
+Domeniu: FITNESS
+Limbaj: LIMBA ROMÂNĂ
+Nu se scrie cod, doar PROMPTURI.
+
+----------------------------------------------------------------
+1. ZERO-SHOT PROMPTING
+----------------------------------------------------------------
+Scrie un prompt zero-shot pentru generarea unui plan de antrenament de forță
+pentru un adult sănătos, respectând TOATE instrucțiunile obligatorii.
+
+----------------------------------------------------------------
+2. ZERO-SHOT PROMPTING + PERSONIFICARE
+----------------------------------------------------------------
+Scrie un prompt zero-shot în care modelul este personificat ca
+„antrenor personal certificat”, respectând structura cerută.
+
+----------------------------------------------------------------
+3. FEW-SHOT PROMPTING
+----------------------------------------------------------------
+Creează un prompt care include 2 exemple (întrebare + răspuns),
+apoi cere modelului să răspundă la o a treia întrebare,
+folosind context și format de ieșire explicit.
+
+----------------------------------------------------------------
+4. FEW-SHOT PROMPTING + PERSONIFICARE
+----------------------------------------------------------------
+Construiește un prompt few-shot în care modelul este personificat
+ca „antrenor pentru începători” și trebuie să păstreze stilul.
+
+----------------------------------------------------------------
+5. CHAIN OF THOUGHT
+----------------------------------------------------------------
+Scrie un prompt care cere modelului să gândească pas cu pas
+pentru a construi un plan de slăbire, cu format explicit.
+
+----------------------------------------------------------------
+6. CHAIN OF THOUGHT + PERSONIFICARE
+----------------------------------------------------------------
+Formulează un prompt în care modelul este personificat ca
+„specialist în fiziologia efortului” și explică raționamentul.
+
+----------------------------------------------------------------
+7. TREE OF THOUGHT
+----------------------------------------------------------------
+Creează un prompt care cere explorarea a minimum 3 soluții diferite
+și alegerea celei mai bune, cu justificare.
+
+----------------------------------------------------------------
+8. TREE OF THOUGHT + PERSONIFICARE
+----------------------------------------------------------------
+Scrie un prompt în care modelul este personificat ca
+„consultant fitness” și compară strategii diferite.
+
+----------------------------------------------------------------
+9. SELF-CONSISTENCY
+----------------------------------------------------------------
+Formulează un prompt care cere generarea a 3 soluții independente
+și un răspuns final consolidat.
+
+----------------------------------------------------------------
+10. SELF-CONSISTENCY + PERSONIFICARE
+----------------------------------------------------------------
+Creează un prompt în care modelul este personificat ca
+„antrenor cu experiență de 20 de ani” și sintetizează rezultatul.
+
+----------------------------------------------------------------
+11. META PROMPTING
+----------------------------------------------------------------
+Scrie un prompt în care modelul își definește singur pașii
+pentru a răspunde corect la o cerință fitness.
+
+----------------------------------------------------------------
+12. GENERATED KNOWLEDGE PROMPTING + PERSONIFICARE
+----------------------------------------------------------------
+Creează un prompt în care modelul este personificat ca
+„expert în hipertrofie”, generează cunoștințe,
+apoi creează un plan de antrenament.
+
+----------------------------------------------------------------
+13. PROMPT CHAINING
+----------------------------------------------------------------
+Construiește un prompt cu două etape clare:
+1) analiză obiectiv fitness
+2) generare plan structurat
+
+----------------------------------------------------------------
+14. REACT (Reason + Act) + PERSONIFICARE
+----------------------------------------------------------------
+Scrie un prompt în care modelul explică raționamentul (Reason)
+și propune acțiuni concrete (Act), într-un format clar.
+
+----------------------------------------------------------------
+15. MULTIMODAL PROMPTING + PERSONIFICARE
+----------------------------------------------------------------
+Formulează un prompt în care modelul este personificat ca
+„antrenor într-o sală de fitness”, primește o imagine
+și recomandă exerciții pe baza ei.
