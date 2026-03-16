@@ -18,8 +18,16 @@ Nu se scrie cod, doar PROMPTURI.
 Scrie un prompt zero-shot pentru generarea unui plan de antrenament de forță
 pentru un adult sănătos, respectând TOATE instrucțiunile obligatorii.
 
-Prompt:
+Prompt: 
 
+INSTRUCȚIUNI:
+Creaza-mi un plan de antrenament de forta.
+CONTEXT:
+Adult sanatos.
+FORMAT DE IEȘIRE:
+- Structureaza-mi un plan de antrenament pe zile;
+- Urmarim cele 5 zile ale saptamanii, exceptand weekend;
+- Ofera-mi si lista de exercitii pentru fiecare zi.
 
 ----------------------------------------------------------------
 2. ZERO-SHOT PROMPTING + PERSONIFICARE
@@ -30,6 +38,15 @@ entru un antrenament de forță.
 
 Prompt:
 
+INSTRUCȚIUNI:
+Esti un atrenor personal certificat care sa imi recomande un plan antrenament de forta.
+CONTEXT:
+Adult sanatos.
+FORMAT DE IEȘIRE:
+- Structureaza-mi un plan de antrenament pe zile;
+- Urmarim cele 5 zile ale saptamanii, exceptand weekend;
+- Ofera-mi si lista de exercitii pentru fiecare zi;
+- Ofera-mi si o dieta recomandata pentru fieacre zi de antrenament.
 
 ----------------------------------------------------------------
 3. FEW-SHOT PROMPTING
@@ -40,6 +57,21 @@ folosind context și format de ieșire explicit (contextul: fitness).
 
 Prompt:
 
+INSTRUCȚIUNI:
+Creaza-mi un plan de antrenament de forta. 
+Iti dau doua exemple de intrebare si raspuns asociat:
+Intrebare: Ce aparate este nevoie sa folosesc pentru aceste exercitii?
+Raspuns: Folosesti doar greutatile de mana, fara aparate.
+Intrebare: Ce ar trebui sa mananc in fiecare zi ca sa acopar nevoia de calorii?
+Raspuns: Trebuia sa mananci 5 mese bogate in calorii (peste 2000).
+La urmatoarea intrebare raspunde singur.
+Intrebare: Cu ce greutati ar trebui sa incep, avand in vedere ca nu am mai facut niciodata sport?
+
+CONTEXT:
+Adult sanatos.
+
+FORMAT DE IEȘIRE:
+- Ofera-mi un raspuns simplu si la obiect in maxim 200 caractere.
 
 ----------------------------------------------------------------
 4. CHAIN OF THOUGHT
@@ -49,6 +81,14 @@ pentru a construi un plan de slăbire, cu format explicit.
 
 Prompt:
 
+INSTRUCȚIUNI:
+Ajuta-ma sa fac un plan de slabire pentru un adult cu o greutate de 100kg.
+
+
+CONTEXT:
+
+
+FORMAT DE IEȘIRE:
 
 ----------------------------------------------------------------
 5. CHAIN OF THOUGHT + PERSONIFICARE
